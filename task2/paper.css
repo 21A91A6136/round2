@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.choice img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+// #computer-choice {
+//     width: 100px;
+//     height: 100px;
+//     display: none;
+// }
